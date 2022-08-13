@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+p{
+  line-height: 30px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin: 50px 0;
+}
+.title h2 {
+  text-transform: capitalize;
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+/* header style */
+.header-area {
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+}
+.logo h2 {
+  padding: 20px 0;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.menu {
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+}
+.menu ul li a {
+  margin-left: 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.menu ul li a:hover {
+  color: tomato;
+}
+
+/* banner style */
+.banner-area {
+}
+.banner {
+}
+.banner img {
+  border: 2px solid #ddd;
+  border-radius: 2px;
+  padding: 3px;
+  width: 100%;
+}
+
+/* about style */
+
+.about-title {
+  /*! align-items: center; */
+  text-align: center;
+  margin: 40px 0;
+}
+.about-title h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 15px 0;
+}
+.about-title p {
+  line-height: 30px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  flex: row wrap;
+  flex: row;
+  flex-wrap: wrap;
+}
+.single-about {
+  flex-basis: 32%;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 30px;
+  text-align: center;
+  transition: 0.3s;
+  padding: 15px;
+}
+.single-about:hover {
+  border-color: tomato;
+}
+.single-about i {
+  border: 1px solid #333;
+  font-size: 20px;
+  padding: 14px;
+  border-radius: 50%;
+}
+
+.single-about h2 {
+  font-size: 27px;
+  text-align: ;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+.single-about p {
+  line-height: 30px;
+}
+
+/* service style */
+
+.service-area{
+  background-color: #f2f2f2;
+
+}
+.service {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.single-service {
+  flex-basis: 32%;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #fff;
+}
+.single-service h2 {
+  text-align: center;
+  font-size: 29px;
+  font-weight: 400;
+  margin: 7px 0;
+  text-transform: capitalize;
+  background-color: teal;
+  padding: 11px;
+  color: #fff;
+}
+.single-service p {
+  margin: 30px 0;
+}
+.single-service a {
+  background-color: tomato;
+  padding: 14px 20px;
+  color: #fff;
+  text-transform: capitalize;
+  display: inline-block;
+  transition: .3s;
+}
+
+.single-service a:hover{
+  color: teal;
+}
